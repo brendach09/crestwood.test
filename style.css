@@ -1352,10 +1352,15 @@ textarea .form-control {
 .footer_left > p a {  
   font-weight: bold;
 }
+.footer_right > p a {  
+  color: #4B65AC;
+  font-weight: bold;
+}
 .footer_right{
 	float: left;
 	display: inline;
 	width: 100%;
+  color: #ffffff;
 }
 .social_nav{
 	text-align: right;	
