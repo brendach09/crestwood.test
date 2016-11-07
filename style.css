@@ -726,18 +726,24 @@ div[data-dimension] {
   height: 40px;
 }
 .single_team {
-  border: 2px solid #ccc;
-  border-radius: 5px;
+  border-bottom: solid #4B65AC;
   display: inline;
   float: left;
   padding: 25px 15px;
-  text-align: center;
+  text-align: left;
   width: 100%;
+}
+.team_left_section {
+  float:left;
+}
+.team_right_section {
+  float: right;
+  width: 80%;
+  text-align:justify;
 }
 .team_img{
 	float: left;
 	display: block;
-	width: 100%;
 }
 .team_img > img {
   border-radius: 100%;
@@ -764,9 +770,6 @@ div[data-dimension] {
   line-height: 26px;
 }
 .team_social{
-	float: left;
-	display: inline;
-	width: 100%;
 	margin-top: 10px;
 }
 .team_social a {
