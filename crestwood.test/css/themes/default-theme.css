@@ -1,0 +1,144 @@
+
+.scrollToTop{
+	background-color: #4B65AC;
+}
+.scrollToTop:hover,.scrollToTop:focus{
+  background-color: #fff;
+  color: #4B65AC;
+  border: 1px solid #4B65AC;
+}
+.navbar-brand > span {
+  color: #4B65AC;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { 
+  color: #4B65AC;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #4B65AC;
+}
+
+.slider_btn:hover,.slider_btn:focus{
+	border-color:#4B65AC;
+	color: #4B65AC;
+}
+.slides-navigation a::before,
+.slides-navigation a::after,
+.slides-navigation .icon-wrap::before,
+.slides-navigation .icon-wrap::after {
+	background: #4B65AC;
+}
+.slides-pagination a {
+  border: 2px solid #4B65AC;
+}
+.heading h2 {
+  border-bottom: 11px solid #4B65AC;
+}
+.panel-title a:hover{
+	color: #4B65AC;		
+}
+.panel-title a span{
+  color: #4B65AC;		
+}
+.service_icon{
+	background-color: #4B65AC;
+}
+
+.single_service:hover .service_icon{	
+	color: #4B65AC;
+	border: 2px solid #4B65AC;
+	background-color: #fff;
+}
+.single_service:hover .service_title{
+	color: #4B65AC;
+}
+.single_service > .service_title:after {
+  background-color: #4B65AC;
+}
+.heading h3 {
+  border-bottom: 5px solid #4B65AC;
+}
+.fa-2x {
+  color: #4B65AC;
+}
+.single_team span {
+  color: #4B65AC;
+}
+.team_social a:hover,.team_social a:focus{
+	background-color: #4B65AC;
+}
+.slick-prev, .slick-next {
+  background-color: #4B65AC;
+}
+.single_price .price {
+  background-color: #4B65AC; 
+}
+.price_btn {
+  background-color: #4B65AC;
+  border: 1px solid #4B65AC;
+}
+.price_btn:hover{
+	color: #4B65AC !important;
+}
+.business_price {
+  background-color: #4B65AC !important;
+}
+.business_price .price_btn{	
+	color: #4B65AC !important;
+}
+.post_commentbox a:hover, .post_commentbox span:hover{
+	color: #4B65AC;
+}
+.read_more{
+	color: #4B65AC;	
+}
+.read_more:hover,.read_more:focus{
+	border-bottom: 2px solid #4B65AC;
+}
+.testi_media .media-body span {
+  color: #4B65AC;
+}
+.testimonial_slider .slick-dots li.slick-active button{
+  background: none repeat scroll 0 0 #4B65AC;  
+}
+.submit_btn {
+  background-color: #4B65AC;
+}
+.submit_btn:hover{
+	color: #4B65AC;
+	border-color: #4B65AC;
+}
+.form-control:focus {
+  border-color: #4B65AC;
+}
+.wagwep-container ul#portfolio-filter a:hover{
+  background-color: #4B65AC;
+}
+.wagwep-container ul#portfolio-filter li.current a {
+  background:#4B65AC;  
+}
+.single_contact_feaured > i {
+  color: #4B65AC;
+}
+.subscr_btn {
+  background-color: #4B65AC;
+}
+.footer_left > p a {
+  color: #4B65AC;
+  font-weight: bold;
+}
+.social_nav li a:hover{
+  color: #4B65AC;
+  border-color: #4B65AC; 
+}
+.panel-default .in{
+  border-color: #4B65AC;
+  border-left: 5px solid #4B65AC;
+}
+.about_slider .slick-dots li.slick-active button:before {
+  color: #4B65AC;
+}
+
+.home-container {
+  margin-top:10%;
+}
