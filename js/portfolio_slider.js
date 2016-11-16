@@ -8,6 +8,15 @@ $("#elastic_grid_demo").elastic_grid({
 	'items' :
 		[
 			{
+			'title' : 'Product Testing \n Segmentation',
+			'description'   : 'Michigan Lottery',
+			'thumbnail' : ['img/lotteries/michigan.gif'],
+			'large' : [],
+			'button_list'   :
+			[],
+			'tags'  : ['Lotteries','All']
+			},
+			{
 			'title' : 'Gallery 1',
 			'description'   : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
 			'thumbnail' : ['img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg'],
@@ -21,19 +30,6 @@ $("#elastic_grid_demo").elastic_grid({
 			},
 
 			{
-			'title' : 'Swiss chard pumpkin',
-			'description'   : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
-			'thumbnail' : ['img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg'],
-			'large' : ['img/portfolio/large/1.jpg', 'img/portfolio/large/1.jpg', 'img/portfolio/large/1.jpg', 'img/portfolio/large/1.jpg'],
-			'button_list'   :
-			[
-			{ 'title':'Demo', 'url' : 'http://#' },
-			{ 'title':'Download', 'url':'http://#'}
-			],
-			'tags'  : ['Photoshop','All']
-			},
-
-			{
 			'title' : 'Spinach winter purslane',
 			'description'   : 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.',
 			'thumbnail' : ['img/portfolio/small/1.jpg','img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg', 'img/portfolio/small/1.jpg'],
@@ -43,7 +39,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design', 'All']
+			'tags'  : ['Consumer Products', 'All']
 			},
 
 			{
@@ -56,7 +52,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery','All']
+			'tags'  : ['Tech','All']
 			},
 
 			{
@@ -69,7 +65,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress','All']
+			'tags'  : ['International','All']
 			},
 
 			{
@@ -82,7 +78,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Photoshop']
+			'tags'  : ['Lotteries']
 			},
 
 			{
@@ -95,7 +91,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design']
+			'tags'  : ['Consumer Products']
 			},
 
 			{
@@ -108,7 +104,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery']
+			'tags'  : ['Tech']
 			},
 
 			{
@@ -121,7 +117,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress']
+			'tags'  : ['International']
 			},
 
 			{
@@ -134,7 +130,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design']
+			'tags'  : ['Consumer Products']
 			},
 
 			{
@@ -147,7 +143,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Photoshop']
+			'tags'  : ['Lotteries']
 			},
 
 			{
@@ -160,7 +156,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery', 'Wordpress']
+			'tags'  : ['Tech', 'International']
 			},
 
 			{
@@ -173,7 +169,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress']
+			'tags'  : ['International']
 			},
 
 			{
@@ -186,7 +182,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Photoshop']
+			'tags'  : ['Lotteries']
 			},
 
 			{
@@ -199,7 +195,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery', 'Design']
+			'tags'  : ['Tech', 'Consumer Products']
 			}
 	 
 		]
