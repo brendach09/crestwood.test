@@ -494,7 +494,7 @@ img{
 	width: 100%;
 	min-height: 350px;
 	padding: 85px 0px;
-	background-image: url(img/skills_bg.jpg);
+	background-image: url(img/other/chess2.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	position: relative;
@@ -502,6 +502,12 @@ img{
 .skills{
 	position: relative;
 	z-index: 999;
+}
+.about_text p {
+  color:#fff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
 }
 .heading h3 {
   color: #fff;
