@@ -344,7 +344,17 @@
           <!-- BEGAIN PORTFOLIO GALLERY -->
           <div class="row">
             <div class="portfolio_gallery">
-              <div id="elastic_grid_demo"></div>
+              <ul id="og-grid" class="og-grid effect-moveup">
+                <li>
+                    <img src="img/lotteries/michigan.gif">
+                    <figure><p>Product Testing Segmentation</p></figure>
+                </li>
+                <li>
+                    <img src="img/portfolio/small/1.jpg">
+                    <figure><p>Gallery 1</p></figure>
+                </li>
+            </ul>
+            <!-- <div id="elastic_grid_demo"></div> -->
             </div>
           </div>
           <!-- END PORTFOLIO GALLERY -->
@@ -674,11 +684,11 @@
                 <!-- FOR CONTACT FORM MESSAGE -->
                 <div id="form-messages"></div>
 
-                <form>
-                  <input class="form-control" type="text" placeholder="Name">
-                  <input class="form-control" type="email" placeholder="Email">
-                  <input class="form-control" type="text" placeholder="Subject">
-                  <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <form action="mailto:bcosta@crestwoods.com" method="get">
+                  <input name="name" class="form-control" type="text" placeholder="Name">
+                  <input name="cc" class="form-control" type="email" placeholder="Email">
+                  <input name="subject" class="form-control" type="text" placeholder="Subject">
+                  <textarea name="body" class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
                    <input class="submit_btn" type="submit" value="Send">  
                 </form>
               </div>

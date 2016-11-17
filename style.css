@@ -1536,3 +1536,24 @@ textarea .form-control {
 	.slider_caption {margin-top: 34%;}  
 	
 }
+
+.og-grid figure {
+  opacity: 0.0;
+  height: 250px;
+  width: 250px;
+  margin-top: -250px;
+  position: relative;
+  background: black;
+  transition: opacity 0.5s;
+}
+
+.og-grid figure p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+}
+
+.og-grid figure:hover {
+  opacity: 0.5;
+}
