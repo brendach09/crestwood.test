@@ -1249,6 +1249,7 @@ textarea .form-control {
 	position: relative;
 	z-index: 999;
 }
+
 .single_contact_feaured {  
   border: 1px solid #ccc;
   display: inline;
@@ -1537,23 +1538,23 @@ textarea .form-control {
 	
 }
 
-.og-grid figure {
-  opacity: 0.0;
-  height: 250px;
-  width: 250px;
-  margin-top: -250px;
+.og-grid img {
   position: relative;
-  background: black;
-  transition: opacity 0.5s;
+}
+.og-grid figure {
+  opacity: 0.5;
+  height: 50px;
+  width: 150px;
+  padding-top: 2%;
 }
 
 .og-grid figure p {
   position: absolute;
   text-align: center;
   width: 100%;
-  bottom: 0px;
+  opacity:0.5;
 }
 
 .og-grid figure:hover {
-  opacity: 0.5;
+  opacity: 1.0;
 }

@@ -61,6 +61,7 @@
 		 */
 		options: {
 			mapTypeId: 'roadmap',
+			center: {lat: 47.6210797, lng: -122.2010773},
 			zoom: 5	
 		},
 		
@@ -86,8 +87,7 @@
 		 */
 		_setup: function(options, element) {
 			this.el = element;
-			options = options || {};
-			jQuery.extend(this.options, options, { 'center': this._latLng(options.center) });
+			options = this.options || {};
 			this._create();
 			if ( this._init ) { this._init(); }
 		},
