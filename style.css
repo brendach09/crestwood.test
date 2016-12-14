@@ -466,6 +466,10 @@ img{
   padding: 0px 15px;
   margin: 10px 0px;
 }
+.panel-list {
+  text-indent:-30px;
+  padding-left:40px;
+}
 .about_slider{
 	float: left;
 	display: inline;
