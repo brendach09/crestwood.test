@@ -62,7 +62,8 @@
 		options: {
 			mapTypeId: 'roadmap',
 			center: {lat: 47.6210797, lng: -122.2010773},
-			zoom: 5	
+			zoom: 5,
+			key: 'AIzaSyAZVejLuCuh_IezjERTn85rCfKMd9iyhRw'
 		},
 		
 		/**
