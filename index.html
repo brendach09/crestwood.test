@@ -653,10 +653,23 @@
             </div>
             <!-- BEGAIN CONTACT MAP -->
             <div class="col-lg-7 col-md-7 col-sm-7">
-              <div class="contact_map">
-              <!-- BEGAIN GOOGLE MAP -->
-               <div id="map_canvas"></div>
-              </div>
+              <div id="contact_map" class="contact_map"></div>
+              <script>
+                function initMap() {
+                  var crestwoodMarker = {lat: 47.6210797, lng: -122.2010773};
+                  var map = new google.maps.Map(document.getElementById('contact_map'), {
+                    zoom: 12,
+                    center: crestwoodMarker
+                  });
+                  var marker = new google.maps.Marker({
+                    position: crestwoodMarker,
+                    map: map
+                  });
+                }
+              </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZVejLuCuh_IezjERTn85rCfKMd9iyhRw&callback=initMap">
+              </script>
             </div>           
           </div>
         </div>      
@@ -859,8 +872,8 @@
      <!-- initialize jQuery Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Google map -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/jquery.ui.map.js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.ui.map.js"></script>-->
      <!-- For smooth animatin  -->
     <script src="js/wow.min.js"></script> 
     <!-- Bootstrap js -->
