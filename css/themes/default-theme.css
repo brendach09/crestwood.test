@@ -143,3 +143,10 @@
 .home-container {
   padding-top: 100px;
 }
+
+.wordcloud {
+  display:inline;
+  margin:auto;
+  height: auto;
+  max-width: 100%;
+}
