@@ -422,6 +422,8 @@ img{
   border-radius: 0;
   margin-bottom: 0px;
   box-shadow: none;
+  font-size:16px;
+  font-weight:300;
 }
 .panel-group .panel + .panel {
   margin-top: 0;
@@ -465,10 +467,25 @@ img{
   border-top-color: transparent !important;
   padding: 0px 15px;
   margin: 10px 0px;
+  font-size: 16px;
+  font-weight:300;
+}
+.panel-content {
+  display: inline-block;
+  width: 90%;
 }
 .panel-list {
-  text-indent:-30px;
-  padding-left:40px;
+  list-style: disc outside none;
+  margin-left: 0;
+  height:100%;
+  float:left;
+}
+.panel-bullet {
+  vertical-align: top;
+  width: 10%;
+  height:100%;
+  padding-right:1em;
+  display: inline-block;
 }
 .about_slider{
 	float: left;
@@ -1166,8 +1183,9 @@ div[data-dimension] {
 }
 .contact_form{
 	float: left;
-	display: inline;
-	width: 100%;
+	display: block;
+  height:auto;
+	max-width: 100%;
 }
 .contact_form input[type="text"],.contact_form input[type="email"]{
 	margin-bottom: 30px;
