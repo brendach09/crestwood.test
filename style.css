@@ -1182,7 +1182,6 @@ div[data-dimension] {
   height: 400px;
 }
 .contact_form{
-	float: left;
 	display: block;
   height:auto;
 	max-width: 100%;
@@ -1306,6 +1305,12 @@ textarea .form-control {
   color: #ff0000;
   margin-bottom: 10px;
   padding: 5px;
+}
+
+.service_text {
+  font-size:16px;
+  line-height: 28px;
+  font-weight: 300;
 }
 
 #contactFeature{
